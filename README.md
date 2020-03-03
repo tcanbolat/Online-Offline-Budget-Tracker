@@ -17,15 +17,15 @@ ________________________________________________________________________________
 <h1 align="center">Example screen shots</h1>
 
 <h3 align="center">Budget App</h3>
-<br>
-![Example profile](./public/assets/READMEimages/app.png)  
+
+![Example profile](/public/assets/READMEimages/app.png)  
 
 <h3 align="center">indexedDB</h3>
-<br>
-![Example profile](./public/assets/READMEimages/indexedDB.png)  
+
+![Example profile](/public/assets/READMEimages/indexedDB.png)  
 
 <h3 align="center">Chrome Lighthouse rating</h3>
-<br>
-![Example profile](./public/assets/READMEimages/lighthouse.png)  
+
+![Example profile](/public/assets/READMEimages/lighthouse.png)  
 
 
