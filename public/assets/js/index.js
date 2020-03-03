@@ -1,3 +1,15 @@
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/service-worker.js").then(reg => {
+      console.log("Service worker registered.", reg);
+    });
+  });
+}
+
+$(document).ready(() => {
+  $(".error").hide();
+});
+
 let transactions = [];
 let myChart;
 
@@ -84,10 +96,12 @@ function sendTransaction(isAdding) {
 
   // validate form
   if (nameEl.value === "" || amountEl.value === "") {
-    errorEl.textContent = "Missing Information";
+    $(".error").show();
+    errorEl.textContent = "Error: Input field is empty.";
     return;
   } else {
     errorEl.textContent = "";
+    $(".error").hide();
   }
 
   // create record
