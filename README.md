@@ -18,12 +18,14 @@ ________________________________________________________________________________
 
 <h3 align="center">Budget App</h3>
 <br>
-![Example profile](./public/assets/READMEimages/Screenshot (57).png)  
+![Example profile](public/assets/READMEimages/Screenshot(57).png)  
 
 <h3 align="center">indexedDB</h3>
 <br>
-![Example profile](./public/assets/READMEimages/Screenshot (56).png)  
+![Example profile](public/assets/READMEimages/Screenshot(56).png)  
 
 <h3 align="center">Chrome Lighthouse rating</h3>
 <br>
-![Example profile](./public/assets/READMEimages/Screenshot (55).png)  
+![Example profile](public/assets/READMEimages/Screenshot(55).png)  
+
+
