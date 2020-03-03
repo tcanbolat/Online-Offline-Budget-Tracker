@@ -28,10 +28,10 @@
       <div class="col col-sm-6 col-lg-4">
         <form class="form-inline">
           <div class="transaction-inputs">
-            <input type="text" id="t-name" placeholder="Transaction Name" />
+            <input aria-label="Transaction Name" type="text" id="t-name" placeholder="Transaction Name" />
           </div>
           <div class="transaction-inputs">
-            <input type="number" min="0" id="t-amount" placeholder="Amount" />
+            <input aria-label="amount" type="number" min="0" id="t-amount" placeholder="Amount" />
           </div>
         </form>
         <form>
@@ -39,11 +39,11 @@
           <div class="transaction-buttons">
             <div>
               <p>deposit</p>
-              <button id="add-btn"><i class="fas fa-plus"></i></button>
+              <button aria-label="deposit" id="add-btn"><i class="fas fa-plus"></i></button>
             </div>
             <div>
               <p>withdraw</p>
-              <button id="sub-btn"><i class="fas fa-minus"></i></button>
+              <button aria-label="withdraw" id="sub-btn"><i class="fas fa-minus"></i></button>
             </div>
           </div>
         </form>
