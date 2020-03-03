@@ -1,5 +1,7 @@
 
 <h1 align="center">Budget Tracking PWA</h1>
+<p align="center">live demo</p>
+<p href="https://budget-tracker-online-offline.herokuapp.com" align="center">https://budget-tracker-online-offline.herokuapp.com</p>
 
 <h1 align="center">Description</h1>
 A budget tracking app that has offline capabilites. A user can enter in expenses and deposits to the budget with or without an internet connection. When entering transactions offline, the data gets stored using indexedDB as a temporary storage. Once online all the data in indexedDB gets sent to the actual database, saving the users transactions.
