@@ -10,9 +10,7 @@ ________________________________________________________________________________
 
 <h1 align="center">Technologies</h1>
 
- - Nodejs - Mongoose - express - compression - 
- 
- - indexedDB - service-worker
+ - Nodejs - Mongoose - express - compression - indexedDB - service-worker - chart.js - bootstrap
 
 ________________________________________________________________________________________________________________________________________
 
