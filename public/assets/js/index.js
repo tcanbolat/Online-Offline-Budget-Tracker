@@ -1,12 +1,5 @@
 import { saveRecord } from "./db.js";
 
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("../../dist/service-worker.js").then(reg => {
-    });
-  });
-}
-
 $(document).ready(() => {
   $(".error").hide();
 });
