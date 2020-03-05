@@ -4,6 +4,7 @@
   "description": "Budget tracking app that demonstrates offline functionality",
   "main": "server.js",
   "scripts": {
+    "heroku-prebuild": "npm install --dev",
     "webpack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
