@@ -2,7 +2,7 @@ import { saveRecord } from "./db.js";
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/service-worker.js").then(reg => {
+    navigator.serviceWorker.register("../../dist/service-worker.js").then(reg => {
     });
   });
 }
