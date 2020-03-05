@@ -15,7 +15,7 @@ const config = {
       dontCacheBustUrlsMatching: /\.\w{8}\./,
       filename: "service-worker.js",
       minify: true,
-      // staticFileGlobsIgnorePatterns: [/\.map$/, /manifest\.json$/]
+      staticFileGlobsIgnorePatterns: [/\.map$/, /manifest\.json$/]
     }),
     new WebpackPwaManifest({
       // the name of the generated manifest file
