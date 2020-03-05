@@ -1,6 +1,9 @@
 
 <h1 align="center">Budget Tracking PWA</h1>
 <p align="center">live demo</p>
+<p align="center">
+  <img src="public/assets/images/icons/icon-72x72.png">
+</p>
 <p href="https://online-offline-budget-tracker.herokuapp.com/" align="center">https://online-offline-budget-tracker.herokuapp.com/</p>
 
 <h1 align="center">Description</h1>
