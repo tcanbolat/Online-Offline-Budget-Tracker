@@ -4,6 +4,7 @@
   "description": "Budget tracking app that demonstrates offline functionality",
   "main": "server.js",
   "scripts": {
+    "heroku-prebuild": "npm install --dev",
     "webpack": "webpack",
     "start": "node server.js",
     "heroku-postbuild": "webpack -p",
@@ -28,7 +29,7 @@
   "devDependencies": {
     "webpack": "^4.32.0",
     "webpack-cli": "^3.3.2",
-    "webpack-pwa-manifest": "^4.2.0",
-    "sw-precache-webpack-plugin": "^1.0.0"
+    "sw-precache-webpack-plugin": "^1.0.0",
+    "webpack-pwa-manifest": "^4.2.0"
   }
 }
