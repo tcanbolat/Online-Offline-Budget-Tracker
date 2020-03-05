@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(MONGODB_URI || "mongodb://"+ MONGO_USER +":"+ process.env.MONGO_PASS + "@ds121189.mlab.com:21189/heroku_n0n5lwq6", {
+mongoose.connect(MONGODB_URI || "mongodb://"+ process.env.MONGO_USER +":"+ process.env.MONGO_PASS + "@ds121189.mlab.com:21189/heroku_n0n5lwq6", {
   useMongoClient: true
 });
 
