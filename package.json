@@ -4,9 +4,6 @@
   "description": "Budget tracking app that demonstrates offline functionality",
   "main": "server.js",
   "scripts": {
-    "webpack": "webpack",
-    "start": "node server.js",
-    "heroku-postbuild": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,15 +17,10 @@
   },
   "homepage": "https://github.com/tcanbolat/Online-Offline-Budget-Trackers#readme",
   "dependencies": {
+    "compression": "^1.7.4",
     "express": "^4.17.1",
     "lite-server": "^2.5.4",
     "mongoose": "^5.9.2",
     "morgan": "^1.9.1"
-  },
-  "devDependencies": {
-    "webpack": "^4.32.0",
-    "webpack-cli": "^3.3.2",
-    "sw-precache-webpack-plugin": "^1.0.0",
-    "webpack-pwa-manifest": "^4.2.0"
   }
 }

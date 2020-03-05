@@ -21,7 +21,7 @@ label {
 }
 
 input {
-  border: 3px solid darkslateblue;
+  border: 2px solid transparent;
   border-radius: 6px;
   padding: 0.4em 0.8em;
   background-color: #e2e8f0;
@@ -29,7 +29,7 @@ input {
 
 input:focus {
   background-color: #ffffff;
-  border: 2px solid darkslateblue;
+  border: 2px solid #cbd5e0;
   outline: 0;
 }
 

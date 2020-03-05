@@ -5,7 +5,6 @@ var urlsToCache = [
     '/assets/css/style.css',
     '/assets/js/index.js',
     '/assets/js/db.js',
-    "/dist/bundle.js",
   ];
 
 self.addEventListener("install", function(event) {
