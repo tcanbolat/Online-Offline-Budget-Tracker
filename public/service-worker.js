@@ -1,20 +1,23 @@
-var CACHE_NAME = "budgetapp-cache";
+var CACHE_NAME = 'budget-tracker-cache';
 
 var urlsToCache = [
-    '/',
-    '/assets/css/style.css',
-    '/assets/js/index.js',
-    '/assets/js/db.js',
-  ];
+  '/',
+  '/assets/css/style.css',
+  '/assets/js/index.js',
+  '/assets/js/db.js',
+];
 
-self.addEventListener("install", function(event) {
+
+self.addEventListener('install', function(event) {
+  // Perform install steps
   event.waitUntil(
-    caches.open(CACHE_NAME).then(function(cache) {
-      return cache.addAll(urlsToCache);
-    })
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        console.log('Opened cache');
+        return cache.addAll(urlsToCache);
+      })
   );
 });
-
 
 self.addEventListener("fetch", function(event) {
   event.respondWith(
@@ -29,3 +32,4 @@ self.addEventListener("fetch", function(event) {
     })
   );
 });
+

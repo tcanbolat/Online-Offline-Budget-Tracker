@@ -25,6 +25,7 @@ mongoose.connect(MONGODB_URI || "mongodb://"+ process.env.MONGO_USER +":"+ proce
 //   useFindAndModify: false
 // });
 
+// routes
 app.use(require("./controller/api.js"));
 
 app.listen(PORT, () => {
